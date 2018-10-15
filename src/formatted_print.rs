@@ -1,6 +1,8 @@
 pub mod display;
+pub mod test_list;
 
-use super::formatted_print::display::P;
+//use super::formatted_print::display::P;
+//use super::formated_print::test_list::List;
 
 #[derive(Debug)]
 struct Point(f64);
@@ -27,8 +29,4 @@ fn test_derive_debug() {
     println!("{:#?}", peter);
 }
 
-#[test]
-fn test_display() {
-    let p = P{ x: 323.3, y: 23f64 };
-    println!("{}", p);
-}
+
