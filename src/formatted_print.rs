@@ -1,3 +1,7 @@
+pub mod display;
+
+use super::formatted_print::display::P;
+
 #[derive(Debug)]
 struct Point(f64);
 
@@ -21,4 +25,10 @@ fn test_derive_debug() {
     println!("Now {:?} will print!", DeepStruct(Point(3242314.432)));
     let peter = Person { name: "Peter", age: 18 };
     println!("{:#?}", peter);
+}
+
+#[test]
+fn test_display() {
+    let p = P{ x: 323.3, y: 23f64 };
+    println!("{}", p);
 }
