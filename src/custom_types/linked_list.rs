@@ -7,9 +7,7 @@ enum List {
 
 impl List {
     fn new() -> List {
-        List {
-            Nil
-        }
+        Nil
     }
 
     fn prepend(self, elem: u32) -> List {
