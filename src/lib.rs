@@ -4,3 +4,4 @@ pub mod primitives;
 
 pub mod custom_types;
 
+pub mod types;
