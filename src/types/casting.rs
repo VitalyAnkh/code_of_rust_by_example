@@ -36,7 +36,9 @@ fn test_casting() {
     // first casting to the corresponding unsigned type. If the most significant
     // bit of that value is 1, then the value is negative.
 
+
     // Unless it already fits, of course.
+    // TODO: Understand this comment
     println!(" 128 as a i16 is: {}", 128 as i16);
     // 128 as u8 -> 128, whose two's complement in eight bits is:
     println!(" 128 as a i8 is : {}", 128 as i8);
