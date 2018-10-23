@@ -48,9 +48,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89908022-3c2a-466e-b4f6-7eb543036722" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/types/aliasing.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conversion.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conversion/from_and_into.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/types.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/aliasing.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/aliasing.rs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,24 +81,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="rs" value="29" />
+          <entry key="rs" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Rust" value="29" />
+          <entry key="Rust" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="rs" value="3983" />
+          <entry key="rs" value="4054" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Rust" value="3983" />
+          <entry key="Rust" value="4054" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -108,8 +110,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lib.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="176">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/conversion.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/conversion/from_and_into.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+              <folding>
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,11 +158,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/types/aliasing.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="374">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -186,11 +212,13 @@
         <option value="$PROJECT_DIR$/src/custom_types/const.rs" />
         <option value="$PROJECT_DIR$/src/custom_types.rs" />
         <option value="$PROJECT_DIR$/src/custom_types/consts.rs" />
-        <option value="$PROJECT_DIR$/src/lib.rs" />
         <option value="$PROJECT_DIR$/src/types/casting.rs" />
         <option value="$PROJECT_DIR$/src/types/literals.rs" />
         <option value="$PROJECT_DIR$/src/types.rs" />
         <option value="$PROJECT_DIR$/src/types/aliasing.rs" />
+        <option value="$PROJECT_DIR$/src/lib.rs" />
+        <option value="$PROJECT_DIR$/src/conversion.rs" />
+        <option value="$PROJECT_DIR$/src/conversion/from_and_into.rs" />
       </list>
     </option>
   </component>
@@ -200,7 +228,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="960" />
     <option name="height" value="1080" />
   </component>
@@ -614,6 +642,9 @@
         <observation name="explicitSelect" value="7.0" />
         <observation name="typedSelect" value="23.0" />
       </dailyData>
+      <dailyData date="23-10-2018">
+        <observation name="cancelled" value="36.0" />
+      </dailyData>
     </factor>
     <factor id="completionType">
       <dailyData date="15-10-2018">
@@ -634,6 +665,9 @@
       <dailyData date="22-10-2018">
         <observation name="BASIC" value="46.0" />
       </dailyData>
+      <dailyData date="23-10-2018">
+        <observation name="BASIC" value="1.0" />
+      </dailyData>
     </factor>
     <factor id="completionUsage">
       <dailyData date="15-10-2018">
@@ -653,6 +687,9 @@
       </dailyData>
       <dailyData date="22-10-2018">
         <observation name="count" value="534.0" />
+      </dailyData>
+      <dailyData date="23-10-2018">
+        <observation name="count" value="36.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -1348,6 +1385,10 @@
         <observation name="average" value="264.515151" />
         <observation name="count" value="33.0" />
       </dailyData>
+      <dailyData date="23-10-2018">
+        <observation name="average" value="228.666667" />
+        <observation name="count" value="12.0" />
+      </dailyData>
     </factor>
   </component>
   <component name="ProjectView">
@@ -1371,12 +1412,7 @@
               <item name="code_of_rust_by_example" type="b2602c69:ProjectViewProjectNode" />
               <item name="code_of_rust_by_example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="types" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code_of_rust_by_example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code_of_rust_by_example" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="conversion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1467,7 +1503,7 @@
       <workItem from="1540119186776" duration="186000" />
       <workItem from="1540123513868" duration="708000" />
       <workItem from="1540217425149" duration="1022000" />
-      <workItem from="1540218522736" duration="2096000" />
+      <workItem from="1540218522736" duration="3028000" />
     </task>
     <servers />
   </component>
@@ -1493,9 +1529,12 @@
     <history-entry file="test - 2018.10.22 at 22h 36m 54s.xml">
       <configuration name="test" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
+    <history-entry file="test - 2018.10.22 at 23h 12m 49s.xml">
+      <configuration name="test" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25442000" />
+    <option name="totallyTimeSpent" value="26374000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1510,12 +1549,12 @@
     <frame x="0" y="0" width="960" height="1080" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.38111112" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4188889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.5667396" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14223194" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2986871" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1589,13 +1628,6 @@
     <entry file="file://$PROJECT_DIR$/src/main.rs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/types/casting.rs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1626,8 +1658,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/types/aliasing.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/conversion.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/conversion/from_and_into.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
