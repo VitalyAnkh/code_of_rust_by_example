@@ -48,11 +48,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89908022-3c2a-466e-b4f6-7eb543036722" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/conversion.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conversion/from_and_into.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conversion/to_string.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/aliasing.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/aliasing.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conversion.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/conversion.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conversion/from_and_into.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/conversion/from_and_into.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,24 +81,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="rs" value="31" />
+          <entry key="rs" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Rust" value="31" />
+          <entry key="Rust" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="rs" value="4054" />
+          <entry key="rs" value="4785" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Rust" value="4054" />
+          <entry key="Rust" value="4785" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -119,23 +119,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/conversion.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="44">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/conversion/from_and_into.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <folding>
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/conversion/to_string.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/conversion/from_and_into.rs">
+        <entry file="file://$PROJECT_DIR$/src/main.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-              <folding>
-                <element signature="e#136#137#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="110">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -217,8 +233,10 @@
         <option value="$PROJECT_DIR$/src/types.rs" />
         <option value="$PROJECT_DIR$/src/types/aliasing.rs" />
         <option value="$PROJECT_DIR$/src/lib.rs" />
-        <option value="$PROJECT_DIR$/src/conversion.rs" />
         <option value="$PROJECT_DIR$/src/conversion/from_and_into.rs" />
+        <option value="$PROJECT_DIR$/src/conversion.rs" />
+        <option value="$PROJECT_DIR$/src/conversion/to_string.rs" />
+        <option value="$PROJECT_DIR$/src/main.rs" />
       </list>
     </option>
   </component>
@@ -228,7 +246,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="width" value="960" />
     <option name="height" value="1080" />
   </component>
@@ -255,6 +273,9 @@
       <dailyData date="22-10-2018">
         <observation name="false" value="30.0" />
       </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="false" value="46.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
       <dailyData date="15-10-2018">
@@ -274,6 +295,9 @@
       </dailyData>
       <dailyData date="22-10-2018">
         <observation name="UNDEFINED" value="30.0" />
+      </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="46.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
@@ -295,6 +319,9 @@
       <dailyData date="22-10-2018">
         <observation name="false" value="30.0" />
       </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="false" value="46.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
       <dailyData date="15-10-2018">
@@ -314,6 +341,9 @@
       </dailyData>
       <dailyData date="22-10-2018">
         <observation name="UNDEFINED" value="30.0" />
+      </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="46.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
@@ -343,6 +373,11 @@
         <observation name="UNDEFINED" value="18.0" />
         <observation name="true" value="12.0" />
       </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="23.0" />
+        <observation name="false" value="5.0" />
+        <observation name="true" value="18.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
       <dailyData date="15-10-2018">
@@ -368,6 +403,11 @@
       <dailyData date="22-10-2018">
         <observation name="UNDEFINED" value="18.0" />
         <observation name="true" value="12.0" />
+      </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="23.0" />
+        <observation name="false" value="4.0" />
+        <observation name="true" value="19.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
@@ -395,6 +435,11 @@
         <observation name="UNDEFINED" value="18.0" />
         <observation name="true" value="12.0" />
       </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="23.0" />
+        <observation name="false" value="4.0" />
+        <observation name="true" value="19.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
       <dailyData date="15-10-2018">
@@ -421,6 +466,11 @@
         <observation name="UNDEFINED" value="18.0" />
         <observation name="true" value="12.0" />
       </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="23.0" />
+        <observation name="false" value="4.0" />
+        <observation name="true" value="19.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
       <dailyData date="15-10-2018">
@@ -445,6 +495,10 @@
       <dailyData date="22-10-2018">
         <observation name="UNDEFINED" value="18.0" />
         <observation name="false" value="12.0" />
+      </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="23.0" />
+        <observation name="false" value="23.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
@@ -471,6 +525,10 @@
         <observation name="false" value="26.0" />
         <observation name="true" value="4.0" />
       </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="false" value="40.0" />
+        <observation name="true" value="6.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
       <dailyData date="15-10-2018">
@@ -490,6 +548,9 @@
       </dailyData>
       <dailyData date="22-10-2018">
         <observation name="UNDEFINED" value="30.0" />
+      </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="46.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
@@ -511,6 +572,9 @@
       <dailyData date="22-10-2018">
         <observation name="UNDEFINED" value="30.0" />
       </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="46.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
       <dailyData date="15-10-2018">
@@ -530,6 +594,9 @@
       </dailyData>
       <dailyData date="22-10-2018">
         <observation name="UNDEFINED" value="30.0" />
+      </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="46.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:methodsChains">
@@ -551,6 +618,9 @@
       <dailyData date="22-10-2018">
         <observation name="UNDEFINED" value="30.0" />
       </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="46.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
       <dailyData date="15-10-2018">
@@ -570,6 +640,9 @@
       </dailyData>
       <dailyData date="22-10-2018">
         <observation name="UNDEFINED" value="30.0" />
+      </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="46.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
@@ -591,6 +664,9 @@
       <dailyData date="22-10-2018">
         <observation name="UNDEFINED" value="30.0" />
       </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="46.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
       <dailyData date="15-10-2018">
@@ -610,6 +686,9 @@
       </dailyData>
       <dailyData date="22-10-2018">
         <observation name="UNDEFINED" value="30.0" />
+      </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="46.0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
@@ -645,6 +724,11 @@
       <dailyData date="23-10-2018">
         <observation name="cancelled" value="36.0" />
       </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="cancelled" value="322.0" />
+        <observation name="explicitSelect" value="3.0" />
+        <observation name="typedSelect" value="43.0" />
+      </dailyData>
     </factor>
     <factor id="completionType">
       <dailyData date="15-10-2018">
@@ -668,6 +752,9 @@
       <dailyData date="23-10-2018">
         <observation name="BASIC" value="1.0" />
       </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="BASIC" value="74.0" />
+      </dailyData>
     </factor>
     <factor id="completionUsage">
       <dailyData date="15-10-2018">
@@ -690,6 +777,9 @@
       </dailyData>
       <dailyData date="23-10-2018">
         <observation name="count" value="36.0" />
+      </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="count" value="368.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -731,6 +821,13 @@
       <dailyData date="22-10-2018">
         <observation name="average" value="0.0" />
         <observation name="count" value="59.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="91.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -779,6 +876,13 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="91.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
       <dailyData date="15-10-2018">
@@ -798,6 +902,9 @@
       </dailyData>
       <dailyData date="22-10-2018">
         <observation name="UNDEFINED" value="30.0" />
+      </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="46.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:position">
@@ -839,6 +946,13 @@
       <dailyData date="22-10-2018">
         <observation name="average" value="0.0" />
         <observation name="count" value="59.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="91.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -887,6 +1001,13 @@
         <observation name="min" value="-1157.0" />
         <observation name="variance" value="375.687424" />
       </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="average" value="-1135.351648" />
+        <observation name="count" value="91.0" />
+        <observation name="max" value="-1052.0" />
+        <observation name="min" value="-1153.0" />
+        <observation name="variance" value="1347.377026" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
       <dailyData date="15-10-2018">
@@ -931,6 +1052,13 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="17.171057" />
       </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="average" value="3.252747" />
+        <observation name="count" value="91.0" />
+        <observation name="max" value="10.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="15.425955" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_explicitlyImported">
       <dailyData date="15-10-2018">
@@ -951,6 +1079,9 @@
       <dailyData date="22-10-2018">
         <observation name="UNDEFINED" value="30.0" />
       </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="46.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
       <dailyData date="15-10-2018">
@@ -970,6 +1101,9 @@
       </dailyData>
       <dailyData date="22-10-2018">
         <observation name="UNDEFINED" value="30.0" />
+      </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="46.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_sameModule">
@@ -1016,6 +1150,14 @@
         <observation name="min" value="2.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="23.0" />
+        <observation name="average" value="1.644444" />
+        <observation name="count" value="45.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.360625" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
       <dailyData date="15-10-2018">
@@ -1035,6 +1177,9 @@
       </dailyData>
       <dailyData date="22-10-2018">
         <observation name="UNDEFINED" value="30.0" />
+      </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="46.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:query_length">
@@ -1076,6 +1221,13 @@
       <dailyData date="22-10-2018">
         <observation name="average" value="0.0" />
         <observation name="count" value="59.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="91.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -1124,6 +1276,13 @@
         <observation name="min" value="1.0" />
         <observation name="variance" value="5.177053" />
       </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="average" value="4.208791" />
+        <observation name="count" value="91.0" />
+        <observation name="max" value="12.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="2.958316" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
       <dailyData date="15-10-2018">
@@ -1143,6 +1302,9 @@
       </dailyData>
       <dailyData date="22-10-2018">
         <observation name="UNDEFINED" value="30.0" />
+      </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="46.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
@@ -1164,6 +1326,9 @@
       <dailyData date="22-10-2018">
         <observation name="UNDEFINED" value="30.0" />
       </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="46.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
       <dailyData date="15-10-2018">
@@ -1183,6 +1348,9 @@
       </dailyData>
       <dailyData date="22-10-2018">
         <observation name="UNDEFINED" value="30.0" />
+      </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="46.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sorter">
@@ -1228,6 +1396,13 @@
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="91.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:statics">
       <dailyData date="15-10-2018">
@@ -1247,6 +1422,9 @@
       </dailyData>
       <dailyData date="22-10-2018">
         <observation name="UNDEFINED" value="30.0" />
+      </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="UNDEFINED" value="46.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
@@ -1292,6 +1470,13 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="4750213.833992" />
       </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="average" value="1315.978022" />
+        <observation name="count" value="91.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="8769156.312503" />
+      </dailyData>
     </factor>
     <factor id="itemPosition">
       <dailyData date="15-10-2018">
@@ -1309,6 +1494,9 @@
       </dailyData>
       <dailyData date="22-10-2018">
         <observation name="0" value="7.0" />
+      </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="0" value="3.0" />
       </dailyData>
     </factor>
     <factor id="mnemonicsUsage">
@@ -1330,6 +1518,10 @@
       </dailyData>
       <dailyData date="22-10-2018">
         <observation name="total" value="6.0" />
+        <observation name="withMnemonics" value="0.0" />
+      </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="total" value="2.0" />
         <observation name="withMnemonics" value="0.0" />
       </dailyData>
     </factor>
@@ -1358,6 +1550,11 @@
         <observation name="1" value="1.0" />
         <observation name="2" value="4.0" />
         <observation name="3" value="2.0" />
+      </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="1" value="1.0" />
+        <observation name="2" value="1.0" />
+        <observation name="3" value="1.0" />
       </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
@@ -1389,6 +1586,10 @@
         <observation name="average" value="228.666667" />
         <observation name="count" value="12.0" />
       </dailyData>
+      <dailyData date="24-10-2018">
+        <observation name="average" value="319.966102" />
+        <observation name="count" value="118.0" />
+      </dailyData>
     </factor>
   </component>
   <component name="ProjectView">
@@ -1407,12 +1608,6 @@
               <item name="code_of_rust_by_example" type="b2602c69:ProjectViewProjectNode" />
               <item name="code_of_rust_by_example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code_of_rust_by_example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code_of_rust_by_example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="conversion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1441,7 +1636,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cargo Command.test">
+  <component name="RunManager" selected="Cargo Command.run">
     <configuration name="Test formatted_print" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
       <option name="command" value="test --package code_of_rust_by_example --lib formatted_print" />
@@ -1460,6 +1655,15 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run" />
+      <option name="allFeatures" value="true" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="channel" value="DEFAULT" />
       <option name="command" value="test --verbose" />
@@ -1471,6 +1675,7 @@
     </configuration>
     <list>
       <item itemvalue="Cargo Command.test" />
+      <item itemvalue="Cargo Command.run" />
       <item itemvalue="Cargo Command.Test formatted_print" />
       <item itemvalue="Cargo Command.Test test_formatte_print" />
     </list>
@@ -1503,38 +1708,44 @@
       <workItem from="1540119186776" duration="186000" />
       <workItem from="1540123513868" duration="708000" />
       <workItem from="1540217425149" duration="1022000" />
-      <workItem from="1540218522736" duration="3028000" />
+      <workItem from="1540218522736" duration="6360000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test - 2018.10.22 at 22h 31m 46s.xml">
-      <configuration name="test" configurationId="CargoCommandRunConfiguration" />
-    </history-entry>
-    <history-entry file="test - 2018.10.22 at 22h 34m 41s.xml">
-      <configuration name="test" configurationId="CargoCommandRunConfiguration" />
-    </history-entry>
-    <history-entry file="test - 2018.10.22 at 22h 34m 53s.xml">
-      <configuration name="test" configurationId="CargoCommandRunConfiguration" />
-    </history-entry>
-    <history-entry file="test - 2018.10.22 at 22h 35m 08s.xml">
-      <configuration name="test" configurationId="CargoCommandRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_test_formatte_print - 2018.10.22 at 22h 35m 51s.xml">
-      <configuration name="Test test_formatte_print" configurationId="CargoCommandRunConfiguration" />
-    </history-entry>
-    <history-entry file="test - 2018.10.22 at 22h 36m 30s.xml">
-      <configuration name="test" configurationId="CargoCommandRunConfiguration" />
-    </history-entry>
     <history-entry file="test - 2018.10.22 at 22h 36m 54s.xml">
       <configuration name="test" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
     <history-entry file="test - 2018.10.22 at 23h 12m 49s.xml">
       <configuration name="test" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
+    <history-entry file="test - 2018.10.23 at 23h 48m 46s.xml">
+      <configuration name="test" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
+    <history-entry file="test - 2018.10.24 at 11h 51m 20s.xml">
+      <configuration name="test" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
+    <history-entry file="test - 2018.10.24 at 11h 51m 35s.xml">
+      <configuration name="test" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
+    <history-entry file="test - 2018.10.24 at 11h 53m 40s.xml">
+      <configuration name="test" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
+    <history-entry file="test - 2018.10.24 at 11h 54m 44s.xml">
+      <configuration name="test" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
+    <history-entry file="test - 2018.10.24 at 11h 56m 30s.xml">
+      <configuration name="test" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
+    <history-entry file="test - 2018.10.24 at 12h 19m 20s.xml">
+      <configuration name="test" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
+    <history-entry file="test - 2018.10.24 at 12h 20m 09s.xml">
+      <configuration name="test" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26374000" />
+    <option name="totallyTimeSpent" value="29706000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1549,12 +1760,12 @@
     <frame x="0" y="0" width="960" height="1080" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.4188889" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.46444446" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.5667396" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2986871" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2155361" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1562,7 +1773,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TeamCity" order="9" weight="0.4584245" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.8271335" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.23851204" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1625,9 +1836,6 @@
     <entry file="file://$PROJECT_DIR$/src/primitives.rs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.rs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/types/casting.rs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1670,23 +1878,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/conversion.rs">
+    <entry file="file://$PROJECT_DIR$/src/conversion/from_and_into.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="308">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/conversion/from_and_into.rs">
+    <entry file="file://$PROJECT_DIR$/src/conversion.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="44">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/conversion/to_string.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
