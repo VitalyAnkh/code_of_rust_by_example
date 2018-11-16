@@ -1,0 +1,3 @@
+[submodule "code_of_rust_by_example"]
+	path = code_of_rust_by_example
+	url = ./code_of_rust_by_example
