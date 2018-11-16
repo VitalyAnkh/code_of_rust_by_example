@@ -1,7 +1,0 @@
-[package]
-name = "code_of_rust_by_example"
-version = "0.1.0"
-authors = ["VitalyR <vitalyankh@gmail.com>"]
-edition = "2018"
-
-[dependencies]
